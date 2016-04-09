@@ -2,7 +2,7 @@
 public class Shoes {
 
     private String season;
-    private String categories;
+    private Categories categories;
     private int size;
     private double price;
 
@@ -14,11 +14,11 @@ public class Shoes {
         this.season = season;
     }
 
-    public String getCategories() {
+    public Categories getCategories() {
         return categories;
     }
 
-    public void setCategories(String categories) {
+    public void setCategories(Categories categories) {
         this.categories = categories;
     }
 
