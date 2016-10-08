@@ -6,6 +6,10 @@ public class Shoes {
     private int size;
     private double price;
 
+    public Shoes (String season, Categories categories, int size, double price){
+
+    }
+
     public String getSeason() {
         return season;
     }

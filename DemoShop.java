@@ -3,6 +3,8 @@ public class DemoShop {
 
     public static void main(String[] args) {
 
+        ShopUI ui = new ShopUI();
+
         Customers[] customer = new Customers[100];
         Shoes[] shoes = new Shoes[1000];
         BuyInfo[] buy = new BuyInfo[100000];
@@ -23,6 +25,5 @@ public class DemoShop {
 
         System.out.println(Service.totalNumberShoes());
     }
-
 
 }

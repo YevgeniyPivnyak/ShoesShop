@@ -5,6 +5,16 @@ public class Customers {
     private String phone;
     private Gender gender;
 
+    public Customers(){
+
+    }
+
+    public Customers(String name, Gender gender, String phone) {
+        this.name = name;
+        this.gender = gender;
+        this.phone = phone;
+    }
+
     public String getName() {
         return name;
     }
